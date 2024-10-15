@@ -8,6 +8,11 @@
   background: var(--color-cyan-1270, #0c2b2fb2);
   margin-bottom: 10px;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title-description-container {
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
@@ -27,4 +32,8 @@
   line-height: var(--lineheight24);
   text-align: center;
   color: var(--color-cyan-8570, #b0faffb2);
+}
+.features-image {
+  width: 100px;
+  height: 100px;
 }

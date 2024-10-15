@@ -10,30 +10,40 @@ const features = [
     title: 'Trade Optimizer',
     description:
       'Find the right moments to buy or sell, with personalized trade suggestions designed to help you make the most of every opportunity.',
+    imageUrl:
+      'https://res.cloudinary.com/dyify82t6/image/upload/v1728989162/Rectangle_3_g1krav.png',
   },
   {
     id: 2,
     title: 'Market Insight',
     description:
       "Stay ahead of the market. Get real-time updates on market trends, track top traders' movements, and spot signals from key influencers.",
+    imageUrl:
+      'https://res.cloudinary.com/dyify82t6/image/upload/v1728989154/7AVABZyyTAliootVGguafuelpHU.svg_hsnfb0.png',
   },
   {
     id: 3,
     title: 'Risk Guard',
     description:
       'Get alerts on market swings and potential risks before they impact your portfolio. This agent helps you navigate volatility and stay prepared for anything.',
+    imageUrl:
+      'https://res.cloudinary.com/dyify82t6/image/upload/v1728989146/Container_1_w7zbeg.png',
   },
   {
     id: 4,
     title: 'Portfolio Sync',
     description:
       "Easily manage your portfolio. You'll always know what you own, how it's performing, and where it’s headed.",
+    imageUrl:
+      'https://res.cloudinary.com/dyify82t6/image/upload/v1728989136/Group_ul3vqe.png',
   },
   {
     id: 5,
     title: 'Opportunity Scout',
     description:
       'Find exciting new projects, events and tokens that others might be missing. Identifying promising opportunities early, so you never miss out on the next big thing.',
+    imageUrl:
+      'https://res.cloudinary.com/dyify82t6/image/upload/v1728989129/OBJECTS_ra4hqv.png',
   },
 ]
 
