@@ -1,0 +1,105 @@
+.mobile-header-container {
+  width: 95%;
+  height: 64pk;
+  border-radius: 48px;
+  background: var(--color-cyan-1270, #0c2b2fb2);
+  backdrop-filter: blur(10px);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icon-button {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border-width: 0px;
+}
+.logo {
+  width: 20px;
+  height: 20px;
+}
+.menu-icon {
+  color: #ffffff;
+  font-size: 24px;
+}
+.nav-list-container {
+  list-style-type: none;
+}
+.item {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #b0faffb2;
+  margin-bottom: 10px;
+}
+.larger-header-container {
+  display: none;
+}
+.larger-header-container {
+  display: none;
+}
+.large-nav-list-container {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #0c2b2fb2;
+  backdrop-filter: blur(10px);
+  width: 653px;
+  height: 64px;
+  border-radius: 48px;
+  top: 25px;
+  left: 665px;
+  margin-left: 400px;
+}
+.login-button {
+  font-family: var(--fontfamilyFont1);
+  font-size: var(--fontsize16);
+  font-weight: 500;
+  line-height: var(--lineheight22);
+  letter-spacing: var(--letterspacing-003);
+  text-align: left;
+  color: #ffffff;
+  width: 67px;
+  height: 22px;
+  background-color: transparent;
+  border-width: 0px;
+}
+.whitespace-button {
+  font-family: var(--fontfamilyFont1);
+  font-size: var(--fontsize16);
+  font-weight: 500;
+  line-height: var(--fontsize20);
+  letter-spacing: var(--letterspacing-032);
+  text-align: center;
+  background: #cdfcff;
+  box-shadow: 0px 0px 1px 1px #4cddfd inset;
+  width: Fixed (100.71px) px;
+  height: 44px;
+  padding: 12px;
+  gap: 0px;
+  border-radius: 12px;
+  opacity: 0px;
+}
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: flex-end;
+  margin-left: 250px;
+  margin-right: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-header-container {
+    display: none;
+  }
+  .larger-header-container {
+    display: flex;
+    align-items: center;
+  }
+}
