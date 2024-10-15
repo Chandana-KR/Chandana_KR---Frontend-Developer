@@ -87,7 +87,7 @@ const RoadmapSection = () => (
     <div className="roadmap-content-container">
       {roadmapDetails.map((each, index) => (
         <div
-          className={`roadmap-item ${index % 2 === 0 ? 'reverse' : ''}`}
+          className={`roadmap-item ${index % 2 !== 0 ? 'reverse' : ''}`}
           key={each.id}
         >
           <div>
@@ -109,6 +109,47 @@ const RoadmapSection = () => (
           />
         </div>
       ))}
+    </div>
+
+    <div className="frequest-question-container">
+      <h1 className="frequent-heading">Frequently Asked Questions</h1>
+      <ul className="questions-container">
+        <li className="question-item">
+          <p className="question-mark">+</p>
+          <p>What is EthAi?</p>
+        </li>
+        <li className="question-item">
+          <p className="question-mark">+</p>
+          <p>How can EthAi can help me as a Trader?</p>
+        </li>
+        <li className="question-item">
+          <p className="question-mark">+</p>
+          <p>Who can use EthAi?</p>
+        </li>
+        <li className="question-item">
+          <p className="question-mark">+</p>
+          <p>How does EthAi track smart money flow?</p>
+        </li>
+        <li className="question-item">
+          <p className="question-mark">+</p>
+          <p>How does ensure data security?</p>
+        </li>
+      </ul>
+    </div>
+
+    <div className="explore-container">
+      <h1 className="explore-heading">Explore Our dApp</h1>
+      <p className="explore-description">
+        EthAi is an AI-powered dApp designed to help traders make smarter,
+        data-driven decisions. By tracking smart money flows, monitoring key
+        wallets, and providing real-time market insights, EthAi empowers users
+        to stay ahead of trends. The platform offers intuitive AI features for
+        asset recommendations, market analysis, and personalized crypto Q&A,
+        making it the ultimate tool for both novice and experienced traders.
+      </p>
+      <button type="button" className="dApp-open-button">
+        Open dApp
+      </button>
     </div>
   </div>
 )
