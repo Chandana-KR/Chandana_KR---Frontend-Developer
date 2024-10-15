@@ -41,6 +41,9 @@ const AboutSection = () => (
       We provide tools that help traders keep up with all new market trends,
       track top traders’ movements.
     </p>
+    <button type="button" className="read-more-button">
+      Read More
+    </button>
     <div className="about-EthAi-container">
       {ethAiItems.map(eachItem => (
         <div className="about-cards">

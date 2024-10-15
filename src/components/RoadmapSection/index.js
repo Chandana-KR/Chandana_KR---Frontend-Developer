@@ -90,8 +90,10 @@ const RoadmapSection = () => (
           className={`roadmap-item ${index % 2 !== 0 ? 'reverse' : ''}`}
           key={each.id}
         >
-          <div>
-            <button type="button">{each.phase}</button>
+          <div className="phase-title-item-container">
+            <button type="button" className="phase-button">
+              {each.phase}
+            </button>
             <h3 className="roadmap-title">{each.title}</h3>
             <ul>
               {each.items.map(item => (
