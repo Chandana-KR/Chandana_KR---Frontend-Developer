@@ -27,7 +27,7 @@ const features = [
     description:
       'Get alerts on market swings and potential risks before they impact your portfolio. This agent helps you navigate volatility and stay prepared for anything.',
     imageUrl:
-      'https://res.cloudinary.com/dyify82t6/image/upload/v1728989146/Container_1_w7zbeg.png',
+      'https://res.cloudinary.com/dyify82t6/image/upload/v1728997258/l1NtBTj8px6kzRLIscIs56ETWRE.svg_sq5smf.png',
   },
   {
     id: 4,

@@ -1,7 +1,7 @@
 .features-container {
   background: var(--color-cyan-6, #00161d);
   width: Fixed (390px) px;
-  height: Hug (1, 687px) px;
+  height: Hug (1, 787px) px;
   padding: 32px 20px 56px 20px;
   gap: var(--itemspacings);
   opacity: 0px;
@@ -23,7 +23,7 @@
 .features-heading {
   color: #ffffff;
   font-family: var(--fontfamilyFont1);
-  font-size: var(--fontsize40);
+  font-size: 22px;
   font-weight: 500;
   line-height: var(--lineheight44);
   letter-spacing: var(--letterspacing-08);
@@ -41,5 +41,8 @@
     grid-template-rows: repeat(2, 1fr);
     gap: 40px;
     justify-items: center;
+  }
+  .features-heading {
+    font-size: 35px;
   }
 }

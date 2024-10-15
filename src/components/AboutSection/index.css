@@ -1,0 +1,92 @@
+.about-container {
+  min-height: 884px;
+  width: Fixed (390px) px;
+  gap: 0px;
+  opacity: 0px;
+  padding: 32px 20px 56px 20px;
+  background: var(--color-cyan-6, #00161d);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-heading {
+  font-family: var(--fontfamilyFont1);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: var(--lineheight44);
+  letter-spacing: var(--letterspacing-08);
+  text-align: center;
+  color: #ffffff;
+}
+.about-EthAi-description {
+  font-family: var(--fontfamilyFont1);
+  font-size: var(--fontsize16);
+  font-weight: 400;
+  line-height: var(--lineheight24);
+  text-align: center;
+  color: #b0faffb2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-EthAi-container {
+  width: Fixed (350px) px;
+  min-height: 712px;
+  gap: 0px;
+  opacity: 0px;
+
+  border-radius: 12px;
+  background: var(--color-cyan-1270, #0c2b2fb2);
+  display: flex;
+  flex-direction: column;
+}
+.about-cards {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 390.5px;
+  height: 120px;
+  opacity: 0px;
+  margin-bottom: 45px;
+}
+
+.about-title {
+  font-family: var(--fontfamilyFont1);
+  font-size: var(--fontsize18);
+  font-weight: 500;
+  line-height: var(--lineheight24);
+  letter-spacing: var(--letterspacing-036);
+  text-align: left;
+  color: #ffffff;
+}
+.about-description {
+  font-family: var(--fontfamilyFont1);
+  font-size: var(--fontsize16);
+  font-weight: 400;
+  line-height: var(--lineheight24);
+  text-align: left;
+  color: #b0faffb2;
+}
+.about-images {
+  width: 30px;
+  height: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-EthAi-container {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 944px;
+    height: 500px;
+    left: 348px;
+    padding: 48px 64px 48px 63px;
+    gap: 0px;
+    border-radius: 20px 0px 0px 0px;
+    opacity: 0px;
+    margin-bottom: 0px;
+  }
+  .about-heading {
+    font-size: 35px;
+  }
+}
